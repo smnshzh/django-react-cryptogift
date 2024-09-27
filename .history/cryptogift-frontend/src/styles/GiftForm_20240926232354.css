@@ -1,0 +1,33 @@
+/* GiftForm.css */
+.gift-form {
+    display: flex;
+    flex-direction: column;  /* Stack form elements */
+    max-width: 400px;
+    margin: 50px auto;  /* Center the form */
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.gift-form input,
+.gift-form select {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.gift-form button {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #28a745;  /* Bootstrap success color */
+    color: white;
+    cursor: pointer;
+}
+
+.gift-form button:hover {
+    background-color: #218838;  /* Darker shade for hover effect */
+}

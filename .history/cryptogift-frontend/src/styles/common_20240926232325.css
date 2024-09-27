@@ -1,0 +1,13 @@
+/* common.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;  /* Light gray background */
+    color: #333;  /* Dark text color */
+}
